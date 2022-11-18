@@ -1,0 +1,205 @@
+@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .section-04 {
+    width: auto;
+    .c-wrapper {
+      margin: 48px auto;
+      .promotion-01 {
+        padding-bottom: 8px;
+        font-family: "Syne";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        color: #000000;
+      }
+      .promotion-02 {
+        padding-bottom: 48px;
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #532c59;
+      }
+      .promotion-A {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 24px;
+        .persons {
+          width: 136px;
+          height: 142px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+          }
+
+          .persons-01 {
+            padding: 8px 0;
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+          }
+          .persons-02 {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #532c59;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+  .section-04 {
+    width: auto;
+    .c-wrapper {
+      margin: 64px auto 96px;
+      .promotion-01 {
+        padding-bottom: 24px;
+        font-family: "Syne";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+        color: #000000;
+      }
+      .promotion-02 {
+        padding-bottom: 64px;
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #532c59;
+      }
+      .promotion-A {
+        display: flex;
+        justify-content: space-between;
+        .persons {
+          width: 174.5px;
+          height: 156px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+          }
+
+          .persons-01 {
+            padding: 12px 0;
+            font-family: "Space Grotesk";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #000000;
+          }
+          .persons-02 {
+            font-family: "Space Grotesk";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #532c59;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+  .section-04 {
+    width: auto;
+    .c-wrapper {
+      margin: 80px auto;
+      .promotion-01 {
+        padding-bottom: 24px;
+        font-family: "Syne";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #000000;
+      }
+      .promotion-02 {
+        padding-bottom: 80px;
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #532c59;
+      }
+      .promotion-A {
+        display: flex;
+        justify-content: space-between;
+        .persons {
+          width: 301px;
+          height: 156px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+          }
+
+          .persons-01 {
+            padding: 12px 0;
+            font-family: "Space Grotesk";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #000000;
+          }
+          .persons-02 {
+            font-family: "Space Grotesk";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #532c59;
+          }
+        }
+      }
+    }
+  }
+}

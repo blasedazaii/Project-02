@@ -1,0 +1,234 @@
+@media all and (max-width: 767px) {
+  .section-06 .c-wrapper {
+    margin-top: 48px;
+  }
+  .section-06 .c-wrapper .test {
+    padding: 64px 0;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  .section-06 .c-wrapper .testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 {
+    display: none;
+  }
+  .section-06 .c-wrapper .testimonials .part-03 {
+    width: 307px;
+    height: 190px;
+    border: 1px solid #d6bcfa;
+    border-radius: 10px;
+  }
+  .section-06 .c-wrapper .testimonials .part-03 .part-02 {
+    padding: 16px;
+  }
+  .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 {
+    display: flex;
+    padding-bottom: 16px;
+    gap: 8px;
+  }
+  .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 img {
+    width: 48px;
+    height: 48px;
+  }
+  .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 {
+    display: inline;
+  }
+  .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 .profile-02-A {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 .profile-02-B {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-03 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #532c59;
+  }
+  .section-06::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(252, 249, 255) 0%, rgba(252, 250, 255, 0.8188317563) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .section-06 .c-wrapper {
+    margin: 64px auto 0;
+  }
+  .section-06 .c-wrapper .test {
+    padding: 64px 0;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+  }
+  .section-06 .c-wrapper .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01, .section-06 .c-wrapper .testimonials .part-03 {
+    width: 31.33%;
+    height: 258px;
+    border: 1px solid #d6bcfa;
+    border-radius: 10px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02, .section-06 .c-wrapper .testimonials .part-03 .part-02 {
+    padding: 16px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 {
+    display: flex;
+    padding-bottom: 16px;
+    gap: 8px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01 img, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 img {
+    width: 48px;
+    height: 48px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01 .profile-02, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 {
+    display: inline;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01 .profile-02 .profile-02-A, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 .profile-02-A {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01 .profile-02 .profile-02-B, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 .profile-02-B {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-03, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-03 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532c59;
+  }
+  .section-06::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(252, 249, 255) 0%, rgba(252, 250, 255, 0.8188317563) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+@media all and (min-width: 768px) {
+  .section-06 .c-wrapper {
+    margin: 80px auto 0;
+  }
+  .section-06 .c-wrapper .test {
+    padding: 0 0 80px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+  }
+  .section-06 .c-wrapper .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01, .section-06 .c-wrapper .testimonials .part-03 {
+    width: 412px;
+    height: 208px;
+    border: 1px solid #d6bcfa;
+    border-radius: 10px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02, .section-06 .c-wrapper .testimonials .part-03 .part-02 {
+    padding: 24px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 {
+    display: flex;
+    padding-bottom: 16px;
+    gap: 8px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01 img, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 img {
+    width: 48px;
+    height: 48px;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01 .profile-02, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 {
+    display: inline;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01 .profile-02 .profile-02-A, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 .profile-02-A {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-01 .profile-02 .profile-02-B, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-01 .profile-02 .profile-02-B {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .section-06 .c-wrapper .testimonials .part-01 .part-02 .profile-03, .section-06 .c-wrapper .testimonials .part-03 .part-02 .profile-03 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532c59;
+  }
+  .section-06::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(252, 249, 255) 0%, rgba(252, 250, 255, 0.8188317563) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}/*# sourceMappingURL=Section06.css.map */

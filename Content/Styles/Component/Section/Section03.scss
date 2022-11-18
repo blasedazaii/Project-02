@@ -1,0 +1,207 @@
+@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .section-03 {
+    height: 1900px;
+    .c-wrapper {
+      .g-item {
+        padding: 48px 16px 8px;
+        font-family: "Syne";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        color: #000000;
+      }
+      .g-item-01 {
+        padding: 0 16px 32px;
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #532c59;
+      }
+
+      .cards {
+        .col {
+          display: none;
+        }
+        .col-03 {
+          margin: auto;
+          width: 288px;
+          height: 540px;
+          margin-bottom: 16px;
+          .card {
+            img {
+              border-radius: 30px;
+              width: 288px;
+              height: 396px;
+            }
+          }
+          .card-01 {
+            .card-01-A {
+              padding: 12px 16px 8px;
+              font-family: "Space Grotesk";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: center;
+              color: #532c59;
+            }
+            .card-01-B {
+              padding: 0 16px 40px;
+              font-family: "Space Grotesk";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 20px;
+              text-align: center;
+              color: #532c59;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+  .section-03 {
+    height: 1410px;
+    .c-wrapper {
+      .g-item {
+        padding: 64px 32px 16px;
+        font-family: "Syne";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+        color: #000000;
+      }
+      .g-item-01 {
+        padding: 0 32px 48px;
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #532c59;
+      }
+
+      .cards {
+        .col,
+        .col-03 {
+          float: left;
+          width: 33.333%;
+          height: 548px;
+          margin-bottom: 48px;
+          .card {
+            img {
+              width: 240.67px;
+              height: 396px;
+              border-radius: 30px;
+            }
+          }
+          .card-01 {
+            .card-01-A {
+              padding-top: 16px;
+              padding-bottom: 12px;
+              font-family: "Syne";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 32px;
+              justify-content: center;
+              text-align: center;
+              color: #000000;
+            }
+            .card-01-B {
+              font-family: "Space Grotesk";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 20px;
+              text-align: center;
+              color: #532c59;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+  .section-03 {
+    height: 2075px;
+    .c-wrapper {
+      .g-item {
+        padding-top: 80px;
+        padding-bottom: 16px;
+        font-family: "Syne";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #000000;
+      }
+      .g-item-01 {
+        padding-bottom: 64px;
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #532c59;
+      }
+
+      .cards {
+        .col,
+        .col-03 {
+          float: left;
+          width: 33.333%;
+          height: 548px;
+          margin-bottom: 64px;
+          .card,
+          .card-03 {
+            img {
+              border-radius: 30px;
+            }
+          }
+          .card-01 {
+            .card-01-A {
+              padding-top: 16px;
+              padding-bottom: 12px;
+              font-family: "Syne";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 32px;
+              line-height: 42px;
+              text-align: center;
+              color: #000000;
+            }
+            .card-01-B {
+              font-family: "Space Grotesk";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 20px;
+              text-align: center;
+              color: #532c59;
+            }
+          }
+        }
+      }
+    }
+  }
+}

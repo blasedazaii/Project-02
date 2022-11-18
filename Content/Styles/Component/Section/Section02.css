@@ -1,0 +1,61 @@
+@media all and (max-width: 767px) {
+  .section-02 {
+    height: 128px;
+  }
+  .section-02 .c-wrapper {
+    margin: 0 auto;
+  }
+  .section-02 .c-wrapper .items {
+    height: 64px;
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .section-02 .c-wrapper .items .item-01 {
+    width: 85.33px;
+    height: 24px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .section-02 {
+    height: 160px;
+  }
+  .section-02 .c-wrapper {
+    margin: 0 auto;
+  }
+  .section-02 .c-wrapper .items {
+    height: 96px;
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+  .section-02 .c-wrapper .items .item-01 {
+    width: 21%;
+    height: 36px;
+  }
+}
+@media all and (min-width: 768px) {
+  .section-02 {
+    height: 120px;
+  }
+  .section-02 .c-wrapper {
+    margin: 0 auto;
+  }
+  .section-02 .c-wrapper .items {
+    height: 40px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+  .section-02 .c-wrapper .items .item-01 {
+    width: 150.07px;
+    height: 40px;
+  }
+}/*# sourceMappingURL=Section02.css.map */
