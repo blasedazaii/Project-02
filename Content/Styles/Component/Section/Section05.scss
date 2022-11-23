@@ -3,192 +3,77 @@
 
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
   .section-05 {
-    width: auto;
+    padding: 48px 0;
+
     .c-wrapper {
-      margin: 48px 16px;
-      .login {
-        font-family: "Syne";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 48px;
-        text-align: center;
-        color: #000000;
-      }
-      .login-01 {
-        padding: 8px 0 32px;
-        font-family: "Space Grotesk";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        text-align: center;
-        color: #532c59;
-      }
-      .provides {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        gap: 24px;
-        .provide {
-          width: 288px;
-          height: 126px;
-          display: flex;
-          align-items: center;
-          flex-direction: column;
-          gap: 8px;
-          .provide-01 {
-            width: 48;
-            height: 48;
-            background-color: #ffff;
-          }
-          .provide-02 {
-            font-family: "Space Grotesk";
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 26px;
-            text-align: center;
-            color: #000000;
-          }
-          .provide-03 {
-            font-family: "Space Grotesk";
-            font-style: normal;
-            font-weight: 300;
-            font-size: 12px;
-            line-height: 18px;
-            text-align: center;
-            color: #532c59;
-          }
+
+        >.c-item-01 {
+            overflow-x: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
         }
-      }
     }
-  }
+    &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        
+        background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%, #FCFAFF 88.54%);
+    }
+
+}
 }
 
 @media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
   .section-05 {
-    width: auto;
+    padding: 64px 0;
+
     .c-wrapper {
-      margin: 64px 32px;
-      .login {
-        font-family: "Syne";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 54px;
-        text-align: center;
-        color: #000000;
-      }
-      .login-01 {
-        padding: 16px 0 64px;
-        font-family: "Space Grotesk";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        color: #532c59;
-      }
-      .provides {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        gap: 12px;
-        .provide {
-          width: 373px;
-          height: 180px;
-          display: flex;
-          align-items: center;
-          flex-direction: column;
-          .provide-01 {
-            width: 48;
-            height: 48;
-            background-color: #ffff;
-          }
-          .provide-02 {
-            padding: 12px;
-            font-family: "Space Grotesk";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 28px;
-            line-height: 36px;
-            text-align: center;
-            color: #000000;
-          }
-          .provide-03 {
-            font-family: "Space Grotesk";
-            font-style: normal;
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-            color: #532c59;
-          }
+        >.c-item-01 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
         }
-      }
     }
-  }
+
+    &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        
+        background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%, #FCFAFF 88.54%);
+    }
+}
 }
 
 @media all and (min-width: #{$mq-sm1 + "px"}) {
-  .section-05 {
-    width: auto;
-    .c-wrapper {
-      margin: 80px auto 104px;
-      .login {
-        font-family: "Syne";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 64px;
-        text-align: center;
-        color: #000000;
-      }
-      .login-01 {
-        padding: 24px 0 40px;
-        font-family: "Space Grotesk";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        color: #532c59;
-      }
-      .provides {
-        display: flex;
-        justify-content: space-between;
-        .provide {
-          width: 301px;
-          height: 200px;
-          display: flex;
-          align-items: center;
-          flex-direction: column;
-          .provide-01 {
-            width: 48;
-            height: 48;
-            background-color: #ffff;
-          }
-          .provide-02 {
-            padding: 12px;
-            font-family: "Space Grotesk";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 28px;
-            line-height: 36px;
-            text-align: center;
-            color: #000000;
-          }
-          .provide-03 {
-            font-family: "Space Grotesk";
-            font-style: normal;
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-            color: #532c59;
-          }
-        }
+  .section-05{
+    padding: 80px 0;
+
+    .c-wrapper{
+      >.c-item-01{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
       }
     }
+
+    &::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+
+      background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%, #FCFAFF 88.54%);
+  }
   }
 }

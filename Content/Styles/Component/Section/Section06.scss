@@ -3,245 +3,115 @@
 
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
   .section-06 {
-    .c-wrapper {
-      margin-top: 48px;
-      .test {
-        padding: 64px 0;
-        font-family: "Syne";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 48px;
-        text-align: center;
-        color: #000000;
-      }
-      .testimonials {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        gap: 24px;
+    padding: 32px 0;
 
-        .part-01 {
-          display: none;
+    .c-wrapper {
+      > .c-item-01 {
+        width: 100%;
+        margin-right: 32px;
+        margin-bottom: 32px;
+
+        > .c-item-01-A {
+          margin-bottom: 24px;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 48px;
+          color: #000000;
+          text-align: center;
         }
 
-        .part-03 {
-          width: 307px;
-          height: 190px;
-          border: 1px solid #d6bcfa;
-          border-radius: 10px;
-          .part-02 {
-            padding: 16px;
-            .profile-01 {
-              display: flex;
-              padding-bottom: 16px;
-              gap: 8px;
-              img {
-                width: 48px;
-                height: 48px;
-              }
-              .profile-02 {
-                display: inline;
-                .profile-02-A {
-                  font-family: "Space Grotesk";
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 14px;
-                  line-height: 20px;
-                  color: #000000;
-                }
-                .profile-02-B {
-                  font-family: "Space Grotesk";
-                  font-style: normal;
-                  font-weight: 400;
-                  font-size: 14px;
-                  line-height: 20px;
-                  color: #000000;
-                  opacity: 0.5;
-                }
-              }
-              .profile-03 {
-                font-family: "Space Grotesk";
-                font-style: normal;
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 18px;
-                color: #532c59;
-              }
-            }
+        > .c-item-01-B {
+          text-align: center;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #532c59;
+        }
+      }
+
+      > .c-item-02 {
+        .micro-other-03 {
+          &:not(:last-child) {
+            margin-bottom: 16px;
           }
         }
       }
-    }
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(252,249,255,1) 0%, rgba(252,250,255,0.8188317563353467) 0%, rgba(0,0,0,0) 100%);
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
   }
 }
 
 @media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
   .section-06 {
+    padding: 48px 0;
+
     .c-wrapper {
-      margin: 64px auto 0;
-      .test {
-        padding: 64px 0;
-        font-family: "Syne";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 56px;
-        text-align: center;
-        color: #000000;
+      display: flex;
+      justify-content: space-between;
+
+      > .c-item-01 {
+        width: calc(50% - 12px);
+
+        > .c-item-01-A {
+          margin-bottom: 24px;
+          font-weight: 600;
+          font-size: 48px;
+          line-height: 64px;
+          color: #000000;
+        }
+
+        > .c-item-01-B {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #532c59;
+        }
       }
-      .testimonials {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 24px;
-        .part-01, .part-03 {
-          width: 31.33%;
-          height: 258px;
-          border: 1px solid #d6bcfa;
-          border-radius: 10px;
-          .part-02 {
-            padding: 16px;
-            .profile-01 {
-              display: flex;
-              padding-bottom: 16px;
-              gap: 8px;
-              img {
-                width: 48px;
-                height: 48px;
-              }
-              .profile-02 {
-                display: inline;
-                .profile-02-A {
-                  font-family: "Space Grotesk";
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 16px;
-                  line-height: 20px;
-                  color: #000000;
-                }
-                .profile-02-B {
-                  font-family: "Space Grotesk";
-                  font-style: normal;
-                  font-weight: 400;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #000000;
-                  opacity: 0.5;
-                }
-              }
-            }
-            .profile-03 {
-              font-family: "Space Grotesk";
-              font-style: normal;
-              font-weight: 300;
-              font-size: 14px;
-              line-height: 20px;
-              color: #532c59;
-            }
+
+      > .c-item-02 {
+        width: calc(50% - 12px);
+
+        .micro-other-03 {
+          &:not(:last-child) {
+            margin-bottom: 16px;
           }
         }
       }
-    }
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(252,249,255,1) 0%, rgba(252,250,255,0.8188317563353467) 0%, rgba(0,0,0,0) 100%);
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
   }
 }
 
 @media all and (min-width: #{$mq-sm1 + "px"}) {
   .section-06 {
+    padding: 80px 0;
     .c-wrapper {
-      margin: 80px auto 0;
-      .test {
-        padding: 0 0 80px;
-        font-family: "Syne";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 64px;
-        text-align: center;
-        color: #000000;
-      }
-      .testimonials {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 24px;
-        .part-01, .part-03 {
-          width: 412px;
-          height: 208px;
-          border: 1px solid #d6bcfa;
-          border-radius: 10px;
-          .part-02 {
-            padding: 24px;
-            .profile-01 {
-              display: flex;
-              padding-bottom: 16px;
-              gap: 8px;
-              img {
-                width: 48px;
-                height: 48px;
-              }
-              .profile-02 {
-                display: inline;
-                .profile-02-A {
-                  font-family: "Space Grotesk";
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 16px;
-                  line-height: 20px;
-                  color: #000000;
-                }
-                .profile-02-B {
-                  font-family: "Space Grotesk";
-                  font-style: normal;
-                  font-weight: 400;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #000000;
-                  opacity: 0.5;
-                }
-              }
-            }
-            .profile-03 {
-              font-family: "Space Grotesk";
-              font-style: normal;
-              font-weight: 400;
-              font-size: 16px;
-              line-height: 24px;
-              color: #532c59;
-            }
-          }
+      display: flex;
+
+      > .c-item-01 {
+        width: 412px;
+        margin-right: 32px;
+
+        > .c-item-01-A {
+          margin-bottom: 24px;
+          font-weight: 600;
+          font-size: 48px;
+          line-height: 64px;
+          color: #000000;
+        }
+
+        > .c-item-01-B {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #532c59;
         }
       }
-    }
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(252,249,255,1) 0%, rgba(252,250,255,0.8188317563353467) 0%, rgba(0,0,0,0) 100%);
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      > .c-item-02 {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px 32px;
+      }
     }
   }
 }

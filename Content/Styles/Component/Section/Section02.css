@@ -1,61 +1,42 @@
 @media all and (max-width: 767px) {
   .section-02 {
-    height: 128px;
+    padding: 32px 0;
   }
   .section-02 .c-wrapper {
-    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
   }
-  .section-02 .c-wrapper .items {
-    height: 64px;
-    padding: 32px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 32px;
-  }
-  .section-02 .c-wrapper .items .item-01 {
-    width: 85.33px;
-    height: 24px;
+  .section-02 .c-wrapper > a > svg {
+    width: 100%;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1319px) {
   .section-02 {
-    height: 160px;
+    padding: 32px 0;
   }
   .section-02 .c-wrapper {
-    margin: 0 auto;
-  }
-  .section-02 .c-wrapper .items {
-    height: 96px;
-    padding: 32px 0;
+    padding: 0 158px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
   }
-  .section-02 .c-wrapper .items .item-01 {
-    width: 21%;
-    height: 36px;
+  .section-02 .c-wrapper > a > svg {
+    width: 135px;
   }
 }
 @media all and (min-width: 768px) {
   .section-02 {
-    height: 120px;
+    padding: 40px 0;
   }
   .section-02 .c-wrapper {
-    margin: 0 auto;
-  }
-  .section-02 .c-wrapper .items {
-    height: 40px;
-    padding: 40px 0;
+    padding: 0 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
+    justify-content: space-between;
   }
-  .section-02 .c-wrapper .items .item-01 {
-    width: 150.07px;
-    height: 40px;
+  .section-02 .c-wrapper > a > svg {
+    width: 150px;
   }
 }/*# sourceMappingURL=Section02.css.map */

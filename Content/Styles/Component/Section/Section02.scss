@@ -3,21 +3,16 @@
 
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
   .section-02 {
-    height: 128px;
-    .c-wrapper{
-      margin: 0 auto;
+    padding: 32px 0;
+    .c-wrapper {
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
 
-      .items{
-        height: 64px;
-        padding: 32px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 32px;
-        .item-01{
-          width: 85.33px;
-          height: 24px;
+      >a{
+        >svg{
+          width: 100%;
         }
       }
     }
@@ -26,20 +21,17 @@
 
 @media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
   .section-02 {
-    height: 160px;
-    .c-wrapper{
-      margin: 0 auto;
+    padding: 32px 0;
+    .c-wrapper {
+      padding: 0 158px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 24px;
 
-      .items{
-        height: 96px;
-        padding: 32px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 48px;
-        .item-01{
-          width: 21%;
-          height: 36px;
+      >a {
+        >svg{
+          width: 135px;
         }
       }
     }
@@ -48,20 +40,16 @@
 
 @media all and (min-width: #{$mq-sm1 + "px"}) {
   .section-02 {
-    height: 120px;
-    .c-wrapper{
-      margin: 0 auto;
+    padding: 40px 0;
 
-      .items{
-        height: 40px;
-        padding: 40px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 48px;
-        .item-01{
-          width: 150.07px;
-          height: 40px;
+    .c-wrapper {
+      padding: 0 100px;
+      display: flex;
+      justify-content: space-between;
+
+      > a {
+        > svg {
+          width: 150px;
         }
       }
     }
