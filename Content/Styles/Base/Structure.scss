@@ -27,7 +27,6 @@ body {
     }
 }
 
-/* Common sm1, sm2 desktop */
 @media all and (min-width: #{$mq-md + "px"}) {
     .c-wrapper {
         width: $c-wrapper-md;

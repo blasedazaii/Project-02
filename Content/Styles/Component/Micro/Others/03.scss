@@ -31,12 +31,21 @@
         }
 
         .c-item-02 {
-            display: none;
-            margin-top: 16px;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            color: #532C59;
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        &:hover {
+            .c-item-02 {
+                visibility: visible;
+                opacity: 1;
+                height: fit-content;
+                margin-top: 16px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #532C59;
+            }
         }
 
         &.on {
@@ -84,12 +93,21 @@
         }
 
         .c-item-02 {
-            display: none;
-            margin-top: 16px;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            color: #532C59;
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        &:hover {
+            .c-item-02 {
+                visibility: visible;
+                opacity: 1;
+                height: fit-content;
+                margin-top: 16px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #532C59;
+            }
         }
 
         &.on {
@@ -117,6 +135,12 @@
         .c-item-01 {
             display: flex;
             align-items: flex-start;
+            opacity: 0.5;
+            transition: opacity 0.25s;
+            &:hover {
+                opacity: 1;
+            }
+
             .c-item-01-A {
                 flex: 1;
                 font-weight: 500;
@@ -136,12 +160,21 @@
         }
 
         .c-item-02 {
-            display: none;
-            margin-top: 16px;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            color: #532C59;
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        &:hover {
+            .c-item-02 {
+                visibility: visible;
+                opacity: 1;
+                height: fit-content;
+                margin-top: 16px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #532C59;
+            }
         }
 
         &.on {

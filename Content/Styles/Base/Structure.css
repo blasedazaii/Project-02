@@ -23,7 +23,6 @@ body {
     width: 760px;
   }
 }
-/* Common sm1, sm2 desktop */
 @media all and (min-width: 1320px) {
   .c-wrapper {
     width: 1300px;
